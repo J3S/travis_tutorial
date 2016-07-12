@@ -10,5 +10,5 @@ class CrearPaciente(TestCase):
         self.paciente = Paciente.objects.create(nombres='Juan',apellidos='Estrada',cedula='0955555555')
 
     def test_crear_paciente(self):
-        self.crear_pacient()
+        self.crear_paciente()
         self.assertIsInstance(self.paciente,Paciente,'paciente creado exitosamente')
